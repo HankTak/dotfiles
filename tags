@@ -1,0 +1,66 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/hank/dotfiles/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+<C-]>	dotfiles/vim/vimrc	/^nnoremap <C-]> :tag <C-R><C-W><CR>$/;"	m
+<C-h>	dotfiles/vim/vimrc	/^map <C-h> <C-W>h$/;"	m
+<C-j>	dotfiles/vim/vimrc	/^map <C-j> <C-W>j$/;"	m
+<C-k>	dotfiles/vim/vimrc	/^map <C-k> <C-W>k$/;"	m
+<C-l>	dotfiles/vim/vimrc	/^map <C-l> <C-W>l$/;"	m
+<C-n>	dotfiles/vim/vimrc	/^map <C-n> :NERDTreeToggle<CR>$/;"	m
+<C-t>	dotfiles/vim/vimrc	/^nnoremap <C-t> :pop<CR>$/;"	m
+<CR>	dotfiles/vim/vimrc	/^nnoremap <silent> <CR> :nohlsearch<Bar>:echo<CR> " Clear search results with enter$/;"	m
+<Leader>q	dotfiles/vim/vimrc	/^nnoremap <Leader>q :q<CR>$/;"	m
+<Leader>w	dotfiles/vim/vimrc	/^nnoremap <Leader>w :w<CR>$/;"	m
+<Leader>x	dotfiles/vim/vimrc	/^nnoremap <Leader>x :x<CR>$/;"	m
+<Leader>y	dotfiles/vim/vimrc	/^vnoremap <Leader>y "+y$/;"	m
+<leader>f	dotfiles/vim/vimrc	/^nnoremap <leader>f :call FzfTags()<CR>$/;"	m
+<leader>t	dotfiles/vim/vimrc	/^nnoremap <leader>t :tselect <C-R><C-W><CR>$/;"	m
+DIR_OF_THIRD_PARTY	dotfiles/vim/ycm_extra_conf.py	/^DIR_OF_THIRD_PARTY = os.path.join( DIR_OF_THIS_SCRIPT, 'third_party' )$/;"	v
+DIR_OF_THIS_SCRIPT	dotfiles/vim/ycm_extra_conf.py	/^DIR_OF_THIS_SCRIPT = os.path.abspath( os.path.dirname( __file__ ) )$/;"	v
+FindCorrespondingSourceFile	dotfiles/vim/ycm_extra_conf.py	/^def FindCorrespondingSourceFile( filename ):$/;"	f
+FzfTags	dotfiles/vim/vimrc	/^function! FzfTags()$/;"	f
+GetStandardLibraryIndexInSysPath	dotfiles/vim/ycm_extra_conf.py	/^def GetStandardLibraryIndexInSysPath( sys_path ):$/;"	f
+IsHeaderFile	dotfiles/vim/ycm_extra_conf.py	/^def IsHeaderFile( filename ):$/;"	f
+POWERLEVEL9K_DIR_CLASSES=	dotfiles/zsh/.p10k.zsh	/^  typeset -g POWERLEVEL9K_DIR_CLASSES=()$/;"	f
+POWERLEVEL9K_DIR_CLASSES=	dotfiles/zsh/p10k.zsh	/^  typeset -g POWERLEVEL9K_DIR_CLASSES=()$/;"	f
+PythonSysPath	dotfiles/vim/ycm_extra_conf.py	/^def PythonSysPath( **kwargs ):$/;"	f
+Rg	dotfiles/vim/vimrc	/^command! -nargs=* Rg call fzf#vim#grep("rg --column --line-number --no-heading --color=always --/;"	c
+SOURCE_EXTENSIONS	dotfiles/vim/ycm_extra_conf.py	/^SOURCE_EXTENSIONS = [ '.cpp', '.cxx', '.cc', '.c', '.m', '.mm' ]$/;"	v
+Settings	dotfiles/vim/ycm_extra_conf.py	/^def Settings( **kwargs ):$/;"	f
+compilation_database_folder	dotfiles/vim/ycm_extra_conf.py	/^compilation_database_folder = ''$/;"	v
+database	dotfiles/vim/ycm_extra_conf.py	/^  database = ycm_core.CompilationDatabase( compilation_database_folder )$/;"	v
+dotfiles	README.md	/^# dotfiles$/;"	c
+flags	dotfiles/vim/ycm_extra_conf.py	/^flags = [$/;"	v
+g:NERDTreeWinSize	dotfiles/vim/vimrc	/^let g:NERDTreeWinSize = 45$/;"	v
+g:SimpylFold_docstring_preview	dotfiles/vim/vimrc	/^let g:SimpylFold_docstring_preview = 1$/;"	v
+g:autoformat_autoindent	dotfiles/vim/vimrc	/^let g:autoformat_autoindent = 0$/;"	v
+g:autoformat_remove_trailing_spaces	dotfiles/vim/vimrc	/^let g:autoformat_remove_trailing_spaces = 0$/;"	v
+g:autoformat_retab	dotfiles/vim/vimrc	/^let g:autoformat_retab = 0$/;"	v
+g:copilot_enabled	dotfiles/vim/vimrc	/^let g:copilot_enabled = v:true$/;"	v
+g:formatters_python	dotfiles/vim/vimrc	/^let g:formatters_python=['black']$/;"	v
+g:gruvbox_contrast_dark	dotfiles/vim/vimrc	/^let g:gruvbox_contrast_dark = 'hard'$/;"	v
+g:gruvbox_invert_selection	dotfiles/vim/vimrc	/^let g:gruvbox_invert_selection='0'$/;"	v
+g:gutentags_enabled	dotfiles/vim/vimrc	/^let g:gutentags_enabled = 1$/;"	v
+g:ycm_global_ycm_extra_conf	dotfiles/vim/vimrc	/^let g:ycm_global_ycm_extra_conf = '~\/.vim\/.ycm_extra_conf.py'$/;"	v
+get_dotfiles	setup.sh	/^get_dotfiles () {$/;"	f
+instant_prompt_example	dotfiles/zsh/.p10k.zsh	/^  function instant_prompt_example() {$/;"	f
+instant_prompt_example	dotfiles/zsh/p10k.zsh	/^  function instant_prompt_example() {$/;"	f
+is_vim	dotfiles/tmux/tmux.conf	/^is_vim="ps -o state= -o comm= -t '#{pane_tty}' \\$/;"	k
+mapleader	dotfiles/vim/vimrc	/^let mapleader="\\<Space>"$/;"	v
+my_git_formatter	dotfiles/zsh/.p10k.zsh	/^  function my_git_formatter() {$/;"	f
+my_git_formatter	dotfiles/zsh/p10k.zsh	/^  function my_git_formatter() {$/;"	f
+prompt_example	dotfiles/zsh/.p10k.zsh	/^  function prompt_example() {$/;"	f
+prompt_example	dotfiles/zsh/p10k.zsh	/^  function prompt_example() {$/;"	f
+setup_alacritty	setup.sh	/^setup_alacritty () {$/;"	f
+setup_tmux	setup.sh	/^setup_tmux () {$/;"	f
+setup_vim	setup.sh	/^setup_vim () {$/;"	f
+setup_zsh	setup.sh	/^setup_zsh () {$/;"	f
+tmux_version	dotfiles/tmux/tmux.conf	/^tmux_version='$(tmux -V | sed -En "s\/^tmux ([0-9]+(.[0-9]+)?).*\/\\1\/p")'$/;"	k

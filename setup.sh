@@ -58,6 +58,8 @@ setup_tmux () {
     sudo apt install fzf
     #Install zoxide
     sudo apt install zoxide
+    #Install ctags
+    sudo apt install universal-ctags
 }
 
 setup_zsh () {
