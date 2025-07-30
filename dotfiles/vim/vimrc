@@ -16,7 +16,7 @@ Plug 'terroo/vim-simple-emoji'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'github/copilot.vim'
-Plug 'ludovicchabant/vim-gutentags'
+" Plug 'ludovicchabant/vim-gutentags'
 call plug#end()
 
 set shell=/bin/zsh
@@ -119,33 +119,33 @@ let g:copilot_enabled = v:true
 " Set the key mapping for Copilot
 " Set up ctags
 " Set the tags file location (searches in the current and parent directories)
-set tags=./tags;,tags
+" set tags=./tags;,tags
 
 " Jump to tag definition using Ctrl-]
-nnoremap <C-]> :tag <C-R><C-W><CR>
+" nnoremap <C-]> :tag <C-R><C-W><CR>
 
 " Jump back to previous location (after using a tag jump)
-nnoremap <C-t> :pop<CR>
+" nnoremap <C-t> :pop<CR>
 
 " Open tag list and navigate
-nnoremap <leader>t :tselect <C-R><C-W><CR>
+" nnoremap <leader>t :tselect <C-R><C-W><CR>
 " Keep update tags file
-autocmd BufWritePost * silent! !ctags -R . 
+" autocmd BufWritePost * silent! !ctags -R . 
 
 " Set up Gutentags
-let g:gutentags_enabled = 1
+" let g:gutentags_enabled = 1
 
 " Set up FZF
 " nnoremap <leader>f :FZF<CR>
 " Search ctags symbols with fzf
-function! FzfTags()
-  if filereadable("tags")
-    let tags = systemlist("awk -F'\t' '{print $1}' tags | sort -u")
-    call fzf#run(fzf#wrap({'source': tags, 'sink': 'tag'}))
-  else
-    echo "No tags file found. Run 'ctags -R .' first."
-  endif
-endfunction
+" function! FzfTags()
+"   if filereadable("tags")
+"     let tags = systemlist("awk -F'\t' '{print $1}' tags | sort -u")
+"     call fzf#run(fzf#wrap({'source': tags, 'sink': 'tag'}))
+"   else
+"     echo "No tags file found. Run 'ctags -R .' first."
+"   endif
+" endfunction
 
 " Map <leader>f to fuzzy search functions/classes
-nnoremap <leader>f :call FzfTags()<CR>
+" nnoremap <leader>f :call FzfTags()<CR>

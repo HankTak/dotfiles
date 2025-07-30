@@ -60,6 +60,8 @@ setup_tmux () {
     sudo apt install zoxide
     #Install ctags
     sudo apt install universal-ctags
+    #Install trash-cli
+    sudo apt install trash-cli
 }
 
 setup_zsh () {

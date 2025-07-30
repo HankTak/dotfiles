@@ -126,3 +126,6 @@ bindkey "^[[B" history-search-forward
 
 # zoxide
 eval "$(zoxide init zsh)"
+
+# Change rm to trash
+alias rm='trash'
